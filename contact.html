@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <div id="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="Viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Contact form</title>
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        <p>You may contact us as follows:</p>
+        <p>Phone: 036 555 2596</p>
+        <p>Email: ustudio@gmail.com</p>
+        <h2>Contact Form</h2>
+        <div class="fcf-body">
+            <div id="fcf-form">
+             
+            <form id="fcf-for-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Your Name</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                    </div>
+                </div>
+                
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">Your Email Address</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" class="fcf-form-control" required>
+                    </div>
+                </div>
+                
+                <div class="fcf-form-group">
+                    <label for="Message" class="fcf-form-control" required>Your Message</label>
+                    <div class="fcf-input-group">
+                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+                
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                </div>
+            </form>    
+            </div>
+        </div>
+    </body>
+</html>
